@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700&family=Texturina:wght@100;300;700&display=swap");
+
+html,
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #ffcdbe;
+}
+
+#icon {
+  margin: 28px 0 0 32px;
+}
+
+h1 {
+  font-family: Texturina, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32;
+  margin: 60px 0 16px 32px;
+}
+
+.subtitle {
+  color: #ff9d80;
+  line-height: 1px;
+  margin: 0 0 55px 32px;
+}
+
+#line {
+  height: 3px;
+  margin: 32px 32px 24px 32px;
+  background-color: #ff9d80;
+}
+
+menu {
+  font-family: Texturina;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26px;
+  margin: 0 32px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+}
+
+menu a {
+  background-color: #ff9d80;
+  text-decoration: none;
+  padding: 8px 32px;
+  color: black;
+  align-self: flex-start;
+  margin-top: 16px;
+}
+
+menu a:hover {
+  background-color: rgba(255, 157, 128, 0.25);
+  color: #ff9d80;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+menu a.section-b {
+  font-weight: 100;
+  background-color: black;
+  color: white;
+}
+menu a.section-b:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 10px;
+  border-color: black;
+  color: black;
+}
